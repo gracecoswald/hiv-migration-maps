@@ -1,0 +1,36 @@
+
+<html>
+<head>
+  <title> Global migration flows and HIV-1 variant distributions </title>
+  <link href='https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap' rel='stylesheet'>
+  <style>
+    body {
+      background-color: #f5f5f5;
+      font-family: 'Roboto', sans-serif;
+    }
+    h1, h2 {
+      color: #333;
+    }
+    .map-container {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .map-container img {
+      width: 100%;
+      max-width: 1200px;
+      height: auto;
+      transition: transform 0.25s ease;
+    }
+    .map-container img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <h1 style='text-align:center;'>Global migration flows and HIV-1 variant distributions</h1>
+
+  <!-- Caption or intro text here -->
+<p style='text-align:center; font-size:16px; color:#666; margin-bottom:20px;'>
+ Below is a series of global maps displaying migration flows per 100,000 of the destination country population with HIV-1 variant distributions overlaid. Maps were created in R  using the rnaturalearth package. Bilateral migration flow data is sourced from Abel and Cohen's international migration flow estimates (<a href='https://www.nature.com/articles/s41597-022-01271-z' target='_blank'>here</a>). HIV-1 variant distribution data was compiled from a global molecular epidemiology database based on a systematic review and global survey. Created by Grace Oswald.
+</p>
+<div class='map-container'><h2>2015-2019</h2><img src='adj_global_2015_check_bar.png' alt='Map 1'></div><div class='map-container'><h2>2010-2014</h2><img src='adj_global_2010_check_bar.png' alt='Map 2'></div><div class='map-container'><h2>2005-2009</h2><img src='adj_global_2005_check_bar.png' alt='Map 3'></div><div class='map-container'><h2>2000-2004</h2><img src='adj_global_2000_check_bar.png' alt='Map 4'></div><div class='map-container'><h2>1995-1999</h2><img src='adj_global_1995_check_bar.png' alt='Map 5'></div><div class='map-container'><h2>1990-1994</h2><img src='adj_global_1990_check_bar.png' alt='Map 6'></div></body></html>
